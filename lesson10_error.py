@@ -12,7 +12,7 @@ def get_list_item(lst, index):
     try:
         return lst[index]
     except IndexError:
-        return f"Index out of range"
+        return "Index out of range"
 
 print(get_list_item([1, 2, 3], 1))
 print(get_list_item([1, 2, 3], 5))
