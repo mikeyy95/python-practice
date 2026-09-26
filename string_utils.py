@@ -3,3 +3,6 @@ def is_vowels(char):
 
 def count_vowels(char):
     return sum(1 for c in char if c.lower() in 'aeiou')
+
+if __name__ == "__main__":
+    print(count_vowels('hello'))
